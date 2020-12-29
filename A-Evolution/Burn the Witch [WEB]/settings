@@ -1,0 +1,2 @@
+x265
+--csv 01.csv --csv-log-level 2 --pmode --pme --preset slower --output-depth 10 --rd 3 --no-rect --no-amp --rskip 1 --tu-intra-depth 2 --tu-inter-depth 2 --hevc-aq --tskip --merange 48 --weightb --no-strong-intra-smoothing --psy-rd 2.0 --psy-rdoq 1.0 --no-open-gop --keyint 360 --min-keyint 12 --scenecut 45 --rc-lookahead 48 --bframes 16 --crf 14.0000 --aq-mode 3 --hevc-aq --aq-strength 1 --qcomp 0.75 --deblock=-1:-1 --no-sao --no-sao-non-deblock --sar 1 --range limited --colorprim 1 --transfer 1 --colormatrix 1
