@@ -1,0 +1,2 @@
+x265
+--pmode --pme --preset slower --rd 3 --ctu 64 --no-rect --no-amp --rskip 1 --tu-intra-depth 2 --tskip --merange 48 --weightb --no-strong-intra-smoothing --psy-rd 1.85 --psy-rdoq 0.8 --no-open-gop --keyint 360 --min-keyint 12 --scenecut 45 --rc-lookahead 48 --cbqpoffs -3 --crqpoffs -3 --bframes 16 --crf 14.0000 --aq-mode 3 --hevc-aq --aq-strength 1 --qcomp 0.75 --deblock=-1:-1 --no-sao-non-deblock --sar 1 --range limited --colorprim 1 --transfer 1 --colormatrix 1 --output-depth 10
